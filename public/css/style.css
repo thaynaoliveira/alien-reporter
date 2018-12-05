@@ -1,0 +1,54 @@
+html { 
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body { 
+    color: #444444;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html, body{
+	padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+#app, #root, content{
+    height: inherit;
+}
+
+img{
+    vertical-align: middle;
+}
+
+content{
+
+}
+
+.btn-default{
+    background-color: #ff8000;
+    border-radius: 3px;
+    color: white;
+    border: 0;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.btn-default:hover{
+    background-color: #ff6a00;
+}
+
+.btn-default:focus, .btn-default:active{
+    outline: 0;
+}
+
+@media (max-width: 768px) {
+
+}

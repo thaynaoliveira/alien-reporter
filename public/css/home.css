@@ -1,0 +1,20 @@
+.home{
+    
+}
+
+.home__description{
+    text-align: center;
+    margin: 16px;
+}
+
+.home__description h4{
+    font-size: 20px;
+    margin: 0 0 8px;
+}
+
+.home .divisor{
+    width: 200px;
+    background-color: #ff8000;
+    height: 2px;
+    display: inline-block;
+}

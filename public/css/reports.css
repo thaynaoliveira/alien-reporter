@@ -1,0 +1,60 @@
+.reports{
+    margin: 16px;
+}
+
+.reports__main{
+
+}
+
+.reports__main p, .reports__main h4, .reports__all p, .reports__all h4{
+    margin: 0;
+}
+
+.reports__main h4, .reports__all h4{
+    font-size: 20px;
+}
+
+.reports__main__item, .reports__all__item{
+    padding: 16px;
+}
+
+.reports__main__item__details, .reports__all__item__details{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+.reports__main__item__details h4, .reports__all__item__details h4{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.reports__main__item__details p, .reports__all__item__details p{
+    font-size: 14px;
+    margin: 8px 16px 0 0;
+}
+
+.reports__main__item__details > div, .reports__all__item__details > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reports__all{
+
+}
+
+.reports__all > h4{
+    margin: 0;
+}
+
+.reports__all__item{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 8px 0;
+}
+
+.reports__not-found{
+    text-align: center;
+}

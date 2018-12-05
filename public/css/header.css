@@ -1,0 +1,30 @@
+header{
+    height: 60px;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px 16px;
+    background-color: #f6f6f6;
+}
+
+.header-content__alien img{
+    width: 40px;
+}
+
+.header-content__alien h2{
+    margin: 0px 0px 0px 8px;
+    font-size: 22px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.header-content__company img{
+    width: 150px;
+}
+
+@media (max-width: 768px) {
+
+}
