@@ -12,9 +12,10 @@
     margin: 0 0 8px;
 }
 
-.home .divisor{
-    width: 200px;
+.divisor{
+    width: 400px;
     background-color: #ff8000;
     height: 2px;
-    display: inline-block;
+    margin: 16px auto;
+    max-width: 100%;
 }
